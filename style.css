@@ -6,6 +6,7 @@ body {
 header {
     background-image: url(telsa.jpeg);
     background-size: cover;
+    background-position: center;
     height: 550px;
     text-align: center;
 }
