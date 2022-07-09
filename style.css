@@ -1,0 +1,25 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(telsa.jpeg);
+    background-size: cover;
+    height: 550px;
+    text-align: center;
+}
+
+.tesla-logo {
+    width: 400px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100%;
+}
+
+.model-logo {
+    width: 325px;
+}
