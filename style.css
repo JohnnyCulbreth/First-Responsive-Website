@@ -53,6 +53,27 @@ p {
     margin-bottom: -22px;
 }
 
+button {
+    display: inline-block;
+    padding: 5px 35px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-family: 'Prompt', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    transition: all 0.2s;
+}
+    
+button:hover {
+    color: white;
+    background-color: black;
+}
+
+.button {
+    margin: 20px 0px 10px 0px;
+}
 
 
 @media (min-width: 576px) {
