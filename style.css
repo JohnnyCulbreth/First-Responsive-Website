@@ -25,6 +25,11 @@ main {
     width: 325px;
     margin-bottom: -50px;
     margin-top: -15px;
+    transition: transform .2s;
+}
+
+.model-logo:hover {
+    transform: scale(1.15);
 }
 
 h1 {
