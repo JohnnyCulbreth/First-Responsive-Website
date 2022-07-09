@@ -75,6 +75,21 @@ button:hover {
     margin: 20px 0px 10px 0px;
 }
 
+.accessories {
+    background-image: url(teslaacc.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    font-size: 50px;
+}
+
+.acc-logo {
+    width: 400px;
+    margin-top: 85px;
+}
+
 
 @media (min-width: 576px) {
     main {
