@@ -23,7 +23,7 @@ main {
 .model-logo {
     width: 325px;
     margin-bottom: -50px;
-    margin-top: -15px
+    margin-top: -15px;
 }
 
 h1 {
@@ -35,4 +35,28 @@ h1 {
     border: 2px solid black;
     border-radius: 10px;
     margin: 10px;
+    text-align: center;
+}
+
+
+
+@media (min-width: 576px) {
+    main {
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+    }
+}
+
+@media (max-width: 991px) {
+    main {
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+    }
+}
+
+@media (min-width: 992px) {
+    main {
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100%;
+    }
 }
