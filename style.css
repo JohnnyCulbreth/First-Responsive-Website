@@ -44,6 +44,15 @@ h1 {
     text-align: center;
 }
 
+.specs {
+    font-family: 'Prompt', sans-serif;
+}
+
+p {
+    font-size: 12px;
+    margin-bottom: -22px;
+}
+
 
 
 @media (min-width: 576px) {
