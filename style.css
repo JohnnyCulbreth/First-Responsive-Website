@@ -76,7 +76,6 @@ button:hover {
 }
 
 .accessories {
-    background-image: url(teslaacc.jpeg);
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -89,7 +88,6 @@ button:hover {
     width: 400px;
     margin-top: 85px;
 }
-
 
 @media (min-width: 576px) {
     main {
